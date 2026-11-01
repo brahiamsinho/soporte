@@ -1,0 +1,17 @@
+# Windows lacks a compatible tensorflow-decision-forests wheel; the .venv-only
+# tensorflow_decision_forests import shim supports TensorFlow.js Keras conversion, not TFDF conversion.
+tensorflow==2.15.1
+tensorflow-datasets==4.9.4
+tensorflow-metadata==1.14.0
+tensorflowjs==4.17.0
+tensorflow-hub==0.16.1
+flax==0.8.2
+jax==0.4.26
+jaxlib==0.4.26
+jupyterlab==4.2.5
+numpy==1.26.4
+matplotlib==3.8.4
+opencv-python==4.10.0.84
+importlib-resources==6.4.5
+packaging==23.2
+setuptools==69.5.1
